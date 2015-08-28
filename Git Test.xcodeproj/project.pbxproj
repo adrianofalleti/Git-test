@@ -14,6 +14,7 @@
 		FF545A1E1B903A5F00365989 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF545A1D1B903A5F00365989 /* Images.xcassets */; };
 		FF545A211B903A5F00365989 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF545A1F1B903A5F00365989 /* LaunchScreen.xib */; };
 		FF545A2D1B903A5F00365989 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF545A2C1B903A5F00365989 /* Git_TestTests.m */; };
+		FF545A381B90404D00365989 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FF545A371B90404D00365989 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF545A261B903A5F00365989 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF545A2B1B903A5F00365989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF545A2C1B903A5F00365989 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FF545A361B90404D00365989 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		FF545A371B90404D00365989 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		FF545A041B903A5F00365989 = {
 			isa = PBXGroup;
 			children = (
+				FF545A361B90404D00365989 /* Test.h */,
+				FF545A371B90404D00365989 /* Test.m */,
 				FF545A0F1B903A5F00365989 /* Git Test */,
 				FF545A291B903A5F00365989 /* Git TestTests */,
 				FF545A0E1B903A5F00365989 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF545A191B903A5F00365989 /* ViewController.m in Sources */,
+				FF545A381B90404D00365989 /* Test.m in Sources */,
 				FF545A161B903A5F00365989 /* AppDelegate.m in Sources */,
 				FF545A131B903A5F00365989 /* main.m in Sources */,
 			);
